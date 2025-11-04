@@ -6,6 +6,7 @@ class Person {
 
   // constructor
   Person(String name, String address) {
+    // solve the variable shadowing in dart
     this.name = name;
     this.address = address;
   }
